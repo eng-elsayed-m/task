@@ -1,0 +1,10 @@
+import 'dart:convert';
+import 'package:dartz/dartz.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:task/src/core/error/exceptions.dart';
+import 'package:task/src/core/error/failures.dart';
+import 'package:task/src/features/favorit/domain/domain.dart';
+import 'package:task/src/features/movies/domain/entities/movie.dart';
+part 'repositories_impl/favorite_repo_impl.dart';
+part 'sources/favorite_local_src.dart';
+part 'models/favorite_model.dart';
